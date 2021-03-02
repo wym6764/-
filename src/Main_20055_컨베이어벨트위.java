@@ -15,7 +15,6 @@ public class Main_20055_컨베이어벨트위 {
 			this.robot = robot;
 		}
 	}
-	
 	public static Queue<Belt> belttop;
 	public static Queue<Belt> beltbottom;
 	public static int n, k;
