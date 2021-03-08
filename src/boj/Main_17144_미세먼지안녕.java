@@ -104,7 +104,7 @@ public class Main_17144_미세먼지안녕 {
 		for(int i = c-1; i >= 1; i--) {
 			if(i == 1) {
 				room[airr2][i] = 0; continue;
-			}
+			} 
 			room[airr2][i] = room[airr2][i-1];
 		}
 	}
