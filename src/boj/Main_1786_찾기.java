@@ -42,7 +42,7 @@ public class Main_1786_찾기 {
 		}
 		System.out.println(cnt);
 		for(int i = 0; i < list.size(); i++) {
-			System.out.println(list.get(i) + " ");
+			System.out.print(list.get(i) + " ");
 		}
 		
 	}
