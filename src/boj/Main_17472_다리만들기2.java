@@ -97,6 +97,7 @@ public class Main_17472_다리만들기2 {
 			}
 		}
 		*/
+		
 		result = 0;
 		for(int i = 3; i < index; i++) {
 			if(minEdge[i] != Integer.MAX_VALUE) {
