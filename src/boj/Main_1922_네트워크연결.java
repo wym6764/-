@@ -25,8 +25,36 @@ public class Main_1922_네트워크연결 {
 			adjMatrix[b][a] = c;
 		}
 		
-		prim2();
+		prim3();
 		System.out.println(result);
+	}
+	private static void prim3() {
+		int minEdge[] = new int[n+1];
+		boolean visited[] = new boolean[n+1];
+		Arrays.fill(minEdge, Integer.MAX_VALUE);
+		minEdge[1] = 0;
+		
+		for(int c = 1; c <= n; c++) {
+			int min = Integer.MAX_VALUE;
+			int minVertex = 0;
+			for(int i = 1; i <= n; i++) {
+				if(!visited[i] && min > minEdge[i]) {
+					min = minEdge[i];
+					minVertex= i;
+				}
+			}
+			
+			visited[minVertex] = true;
+			result += min;
+			
+			for(int i = 1; i <= n; i++) {
+				if(!visited[i] && adjMatrix[minVertex][i] != 0 && adjMatrix[minVertex][i] < minEdge[i]) {
+					minEdge[i] = adjMatrix[minVertex][i];
+				}
+			}
+		
+		}
+		
 	}
 	private static void prim() {
 		int minEdge[] = new int[n+1];
@@ -104,5 +132,9 @@ public class Main_1922_네트워크연결 {
 			}
 			
 		}
+	}
+
+	private static void prim4() {
+		
 	}
 }
