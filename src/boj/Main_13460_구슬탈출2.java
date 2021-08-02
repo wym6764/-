@@ -41,7 +41,7 @@ public class Main_13460_구슬탈출2 {
 			i++;
 		}
 		
-		System.out.println(i);
+		//System.out.println(i);
 	}
 	
 	private static int dr[] = {0, 0, -1, 1};
