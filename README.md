@@ -24,4 +24,4 @@ response exmaple
 ---
 [get] localhost:8080/**{url}**
 
-해당 url로 redirect합니다.
+- 해당 url로 redirect합니다.
