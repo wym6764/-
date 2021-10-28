@@ -1,6 +1,14 @@
 # URL Shortener
 > URL을 축약해주고, 축약된 URL을 원 URL로 Redirect하는 기능을 제공합니다.
 
+# 개발 환경
+
+### Backend
+
+- Spring Boot
+- MySQL
+- Mybatis
+
 ## Rest API
 
 ### Shorten API
