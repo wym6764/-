@@ -3,11 +3,10 @@
 
 # 개발 환경
 
-### Backend
-
 - Spring Boot
 - MySQL
 - Mybatis
+- IntelliJ
 
 ## Rest API
 
@@ -30,6 +29,19 @@
 }
 ```
 ### Redirect API
-[get] localhost:8080/**{url}**
+[get] localhost:8080/**{shortURL}**
 
-- 해당 url로 redirect합니다.
+- shortURL의 원 url으로 redirect합니다.
+
+## Exception
+- URL을 입력하지 않은 shortURL 생성 요청시
+```
+{
+    "message": "URL이 입력되지 않았습니다"
+}
+- 등록되어 있지 않은 shortURL으로 redirect요청시
+```
+{
+    "message": "등록되어있지 않은 URL입니다."
+}
+- 
