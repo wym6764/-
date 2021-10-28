@@ -21,7 +21,7 @@ response exmaple
     "originalURL": "http://naver.com"
 }
 ```
-
+---
 [get] localhost:8080/**{url}**
 
 해당 url로 redirect합니다.
