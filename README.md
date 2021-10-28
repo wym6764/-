@@ -7,13 +7,13 @@
 [post] localhost:8080/**shorten**
 
 
-request example
+- request example
 ```json
 {
   "url" : "http://naver.com"
 }
 ```
-response exmaple
+- response exmaple
 ```json
 {
     "id": 1000034,
