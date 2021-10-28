@@ -36,12 +36,13 @@
 
 ## Exception
 - URL을 입력하지 않은 shortURL 생성 요청시
-```
+```json
 {
     "message": "URL이 입력되지 않았습니다"
 }
-- 등록되어 있지 않은 shortURL으로 redirect요청시
 ```
+- 등록되어 있지 않은 shortURL으로 redirect요청시
+```json
 {
     "message": "등록되어있지 않은 URL입니다."
 }
