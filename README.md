@@ -8,7 +8,7 @@ localhost:8080/shorten
 request
 ```json
 {
-  url : "http://naver.com"
+  "url" : "http://naver.com"
 }
 ```
 response
