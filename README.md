@@ -1,6 +1,7 @@
 # URL Shortener
 > URL을 축약해주고, 축약된 URL을 원 URL로 Redirect하는 기능을 제공합니다.
 
+
 # 개발 환경
 
 - Spring Boot
@@ -44,4 +45,4 @@
 {
     "message": "등록되어있지 않은 URL입니다."
 }
-- 
+```
