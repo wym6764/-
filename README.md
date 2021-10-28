@@ -5,6 +5,8 @@
 
 ### Shorten API
 [post] localhost:8080/shorten
+
+
 request example
 ```json
 {
