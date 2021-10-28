@@ -4,7 +4,7 @@
 ## Rest API
 
 ### Shorten API
-[post] localhost:8080/shorten
+[post] localhost:8080/**shorten**
 
 
 request example
@@ -22,5 +22,6 @@ response exmaple
 }
 ```
 
-[get] localhost:8080/{url}
-해당 url로 redirect
+[get] localhost:8080/**{url}**
+
+해당 url로 redirect합니다.
